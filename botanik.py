@@ -41,8 +41,19 @@ async def start(message: types.Message):
     )
     await message.answer(courses_text, parse_mode="Markdown")
 
+    top_channels_text = (
+        "🔥 Вот парочка Топовых Каналов для Арбитража:\n"
+        "📌 [Записки Арбитражника](https://t.me/+Xq5V2c0VMbdlOGNi)\n"
+        "📌 [Просто про Арбитраж](https://t.me/+McRMKkrLxsc1ODAy)\n\n"
+        "💎 А если тебя интересует Криптовалюта - вот Годные Каналы:\n"
+        "📌 [Записи Криптана](https://t.me/+voBUqjKOJI83YTdi)\n"
+        "📌 [Дневник Криптана](https://t.me/+gOxTz-7iTuhlYThi)"
+    )
+    await message.answer(top_channels_text, parse_mode="Markdown")
+
 async def main():
     await dp.start_polling(bot)
 
 if __name__ == "__main__":
     asyncio.run(main())
+
