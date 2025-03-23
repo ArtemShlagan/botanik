@@ -43,11 +43,11 @@ async def start(message: types.Message):
 
     top_channels_text = (
         "🔥 Вот парочка Топовых Каналов для Арбитража:\n"
-        "📌 [Записки Арбитражника](https://t.me/+Xq5V2c0VMbdlOGNi)\n"
-        "📌 [Просто про Арбитраж](https://t.me/+McRMKkrLxsc1ODAy)\n\n"
+        "📌 [Записки Арбитражника](https://t.me/+01653Xotz0EzNWZi)\n"
+        "📌 [Просто про Арбитраж](https://t.me/+TlB3gRykdW0yOWYy)\n\n"
         "💎 А если тебя интересует Криптовалюта - вот Годные Каналы:\n"
-        "📌 [Записи Криптана](https://t.me/+voBUqjKOJI83YTdi)\n"
-        "📌 [Дневник Криптана](https://t.me/+gOxTz-7iTuhlYThi)"
+        "📌 [Записи Криптана](https://t.me/+nCNyKf8Sy_piODMy)\n"
+        "📌 [Дневник Криптана](https://t.me/+GGDfhvEMbd81MzRi)"
     )
     await message.answer(top_channels_text, parse_mode="Markdown")
 
